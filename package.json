@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "hello",
+=======
+  "name": "frontend1_form",
+>>>>>>> fb907cf866ea23cab2f4860a9dad12c0b942a740
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,9 +12,13 @@
   },
   "keywords": [],
   "author": "",
+<<<<<<< HEAD
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.38.0",
     "eslint-plugin-vue": "^9.10.0"
   }
+=======
+  "license": "ISC"
+>>>>>>> fb907cf866ea23cab2f4860a9dad12c0b942a740
 }
