@@ -8,6 +8,7 @@
     div#app div { margin-bottom: 20px; }
     label { display: block; }
     input[type=text] { padding: 4px; }
+    .red { color: red; }
   </style>
 </head>
 <body>
@@ -24,7 +25,7 @@
     <hr />
     <div>
       <label>합계</label>
-      <input type="text" v-model="total" v-bind:style="{ red: total >= 10000 : }" />
+      <input type="text" v-model="total" v-bind:class="{ red: total >= 10000 }" />
     </div>
   </div>
 
